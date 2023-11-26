@@ -1,0 +1,284 @@
+
+.container {
+  padding: 10px;
+  background-color: #ff3366;
+}
+
+.containerNavegador {
+  background-color: #cafbd5;
+  padding: 10px;
+  color: #1e1717;
+}
+
+.containerCategorias {
+  background-color: #d51111;
+  color: #1e1717;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menuItem {
+  margin: 0 10px;
+  color: #333; /* Color de texto normal */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transición suave del color al pasar el ratón */
+}
+
+.menuItem:hover {
+  color: #ff3366; /* Cambiar el color al pasar el ratón */
+}
+
+.imagecarousel {
+  width: 100%;
+  max-width: 100vw; /* Cambié esto a 100vw para que tome el 100% del ancho de la ventana */
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carouselcontainer {
+  display: flex;
+  width: 100%;
+  max-width: 100vw; /* Ajustado para que coincida con el contenedor principal */
+  margin: auto;
+  overflow: hidden;
+  background-color: #ffdae3;
+  color: #1e1717;
+}
+
+.carouselitem {
+  flex: 0 0 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carouselitem img {
+  width: 100%; /* Esto hará que las imágenes ocupen el 100% del ancho del contenedor */
+  height: auto;
+  max-height: 200px;
+  border-radius: 8px;
+  object-fit: scale-down; /* Ajusta la propiedad de object-fit según tus necesidades */
+}
+.carouselitem .description {
+  background-color: rgb(210, 229, 238); 
+  padding: 10px; 
+  border-radius: 8px;
+  margin-bottom: 10px; 
+  color: #1e1717; 
+}
+.carouselitem .precio {
+  background-color: #f7bb9b; 
+  padding: 10px; 
+  border-radius: 8px; 
+  margin-bottom: 10px; 
+  color: #333; 
+}
+
+
+.buttonContainer {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-300%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px; /* Ajusta el espaciado según sea necesario */
+  box-sizing: border-box;
+}
+
+.buttonCarousel {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  bottom: 50%;
+}
+
+.buttonCarousel:hover {
+  background-color: #45a049;
+}
+
+.h1Carousel {
+  text-align: center;
+}
+
+.contactenosContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffdae3;
+  color: #1e1717;
+  margin-top: 3rem;
+}
+
+.formContainer {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #d0efff;
+  border-radius: 8px;
+  margin-right: 20px;
+  background-color: #d0efff;
+  color: #1e1717;
+}
+
+.formContainer h2 {
+  text-align: center;
+  color: #1e1717
+}
+.formContainer h6 {
+  text-align: center;
+  color: #1e1717;
+}
+
+
+.formContactenos {
+  display: flex;
+  flex-direction: column;
+  color: #1e1717;
+}
+
+.labelFormContactenos {
+  margin: 10px 0;
+}
+
+.inputFormContactenos,
+.textareaFormContactenos {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.buttonFormContactenos {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.redesSocialesContainer {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #d0efff;
+  border-radius: 8px;
+  background-color: #d0efff;
+}
+
+.redesSocialesContainer h2 {
+  text-align: center;
+  color: #1e1717;
+}
+
+.redesSocialesItem {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: #1e1717;
+}
+
+.redesSocialesItem img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.puntosDeVentaContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffdae3;
+  color: #1e1717;
+  margin-top: 3rem;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+.imagenCard {
+  width: 100%;
+  height: auto; 
+  max-height: 200px; 
+  border-radius: 8px; 
+}
+
+.informacionCard {
+  padding: 10px;
+}
+
+.ciudadCard {
+  font-weight: bold;
+}
+
+.resenasContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffdae3;
+  margin-top: 2rem;
+}
+
+.resenasLista {
+  flex: 1;
+}
+
+.resena {
+  border: 1px solid #f7bb9b;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f7bb9b;
+}
+
+.calificacion {
+  margin-top: 5px;
+}
+
+.agregarResena {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ffdae3;
+  border-radius: 8px;
+}
+
+.agregarResena h2 {
+  text-align: center;
+}
+
+.labelResena {
+  display: block;
+  margin: 10px 0;
+}
+
+.inputResena,
+.selectResena,
+.textareaResena {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.buttonResena {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonResena:hover {
+  background-color: #45a049;
+}
